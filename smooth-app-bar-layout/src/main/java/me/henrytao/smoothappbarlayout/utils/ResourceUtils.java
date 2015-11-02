@@ -19,13 +19,15 @@ package me.henrytao.smoothappbarlayout.utils;
 import android.content.Context;
 import android.content.res.TypedArray;
 
+import me.henrytao.smoothappbarlayout.R;
+
 /**
  * Created by henrytao on 10/10/15.
  */
 public class ResourceUtils {
 
   public static int getActionBarSize(Context context) {
-    TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(new int[]{android.R.attr.actionBarSize});
+    TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(new int[]{R.attr.actionBarSize});
     int size = (int) styledAttributes.getDimension(0, 0);
     styledAttributes.recycle();
     return size;
