@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/henrytao-me/maven/smooth-app-bar-layout/images/download.svg) ](https://bintray.com/henrytao-me/maven/smooth-app-bar-layout/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/henrytao-me/maven/smooth-app-bar-layout/images/download.svg) ](https://bintray.com/henrytao-me/maven/smooth-app-bar-layout/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-smooth--app--bar--layout-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2565)
 
 smooth-app-bar-layout
 ================
@@ -17,15 +17,6 @@ compile "me.henrytao:smooth-app-bar-layout:<latest-version>"
 ```
 
 `smooth-app-bar-layout` is deployed to `jCenter`. Make sure you have `jcenter()` in your project gradle.
-
-
-## Proguard
-
-Please make sure all classes aren't shrinked or minified by proguard.
-
-```
--keep class me.henrytao.smoothappbarlayout.** { *; }
-```
 
 
 ## Tested environments
